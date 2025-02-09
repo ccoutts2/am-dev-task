@@ -10,7 +10,6 @@
 </svelte:head>
 
 <main>
-	<NavBar />
 	<Hero />
 	<Feature />
 </main>

@@ -22,6 +22,7 @@
 
 	.Button {
 		@include mixins.flex($direction: row-reverse, $align: center, $gap: 0.5rem);
+		border: none;
 		border-radius: 4px;
 		cursor: pointer;
 		font-size: variables.$font-size--2;
