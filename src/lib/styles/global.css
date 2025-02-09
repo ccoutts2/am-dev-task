@@ -1,0 +1,52 @@
+@layer reset, globals;
+
+@import './fonts.scss' layer(globals);
+@import './partials/_mixins.scss' layer(globals);
+@import './partials/_breakpoints.scss' layer(globals);
+@import './partials/_variables.scss' layer(globals);
+
+@layer reset {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@layer globals {
+	.visually-hidden {
+		clip-path: inset(50%);
+		clip: rect(0 0 0 0);
+		height: 1px;
+		overflow: hidden;
+		position: absolute;
+		white-space: nowrap;
+		width: 1px;
+	}
+
+	body {
+		background: #f8f3eb;
+		color: white;
+		font-family: Geist;
+		font-weight: 400;
+		min-height: 100vh;
+	}
+
+	:where(h1, h2) {
+		font-family: Spline Sans;
+		font-weight: 400;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	button svg {
+		display: flex;
+	}
+
+	h1 svg {
+		height: clamp(1rem, 10vw, 3.75rem);
+		width: clamp(1rem, 10vw, 5.125rem);
+	}
+}
