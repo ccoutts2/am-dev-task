@@ -1,9 +1,6 @@
 @layer reset, globals;
 
 @import './fonts.scss' layer(globals);
-@import './partials/_mixins.scss' layer(globals);
-@import './partials/_breakpoints.scss' layer(globals);
-@import './partials/_variables.scss' layer(globals);
 
 @layer reset {
 	* {

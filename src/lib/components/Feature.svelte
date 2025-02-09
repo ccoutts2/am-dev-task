@@ -45,12 +45,12 @@
 			<!-- Exported images as jpg and compressed for better loading -->
 			<img
 				srcset="
-        /src/assets/images/am-image-low.jpg 576w, 
-        /src/assets/images/am-image-medium.jpg 768w, 
-        /src/assets/images/am-image-high.jpg 1200w"
+						/src/assets/images/am-image-low.jpg 576w, 
+						/src/assets/images/am-image-medium.jpg 768w, 
+						/src/assets/images/am-image-high.jpg 1200w"
 				sizes="(max-width: 36rem) 576px, 
-             (max-width: 48rem) 768px, 
-             1200px"
+						(max-width: 48rem) 768px, 
+						1200px"
 				src="/src/assets/images/am-image-high.jpg"
 				alt="A woman sitting on a modern chair in a brightly lit apartment room, wearing casual clothes, while working on a MacBook."
 			/>
