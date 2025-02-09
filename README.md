@@ -1,38 +1,35 @@
-# sv
+Developer Task - Articulate Marketing
+Overview
+This project was developed as part of a task for Articulate Marketing. I built this in SvelteKit as I believed it was a good balance between vanilla JS and a JavaScript framework. The web page is responsive across mobile, tablet, and desktop breakpoints.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+Main Comments
 
-If you're seeing this, you've probably already done this step. Congrats!
+I opted for an accordion using the <summary> <details> HTML elements, to be as accessible and semantic as possible.
+I've converted images to jpg and compressed, utilising the <img> srcset attribute, for responsiveness.
 
-```bash
-# create a new project in the current directory
-npx sv create
+I've commented throughout the codebase, where necessary
 
-# create a new project in my-app
-npx sv create my-app
-```
+Installation
+To get started with the project, follow these steps:
 
-## Developing
+1. Clone the repository
+bash
+Copy
+Edit
+git clone git@github.com:ccoutts2/am-dev-task.git
+cd am-dev-task
+2. Install dependencies
+Use the package manager npm (or yarn if preferred) to install the required dependencies.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+bash
+Copy
+Edit
+npm install
+3. Run the development server
+Once the dependencies are installed, start the development server:
 
-```bash
+bash
+Copy
+Edit
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
