@@ -38,6 +38,10 @@
 		text-decoration: none;
 	}
 
+	button {
+		font-family: Geist;
+	}
+
 	button svg {
 		display: flex;
 	}
