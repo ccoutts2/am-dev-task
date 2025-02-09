@@ -1,0 +1,56 @@
+@use 'sass:math';
+
+// Breakpoints
+
+$breakpoint--mobile: math.div(576, 16) + rem;
+$breakpoint--tablet: math.div(768, 16) + rem;
+$breakpoint--desktop: math.div(1200, 16) + rem;
+
+// Max content width
+
+$content--max-width: math.div(1384, 16) + rem;
+$content--max-width--lg: math.div(1512, 16) + rem;
+
+// Figma Design Colours
+$color--white: #ffffff;
+$color--dark: #171a1e;
+$color--light: #f8f3eb;
+$color--gray: #3e3e3e;
+
+$color--brand--primary: $color--dark;
+$color--brand--contrast: $color--white;
+$color--canvas: $color--light;
+$color--line-divider: $color--gray;
+
+// Font Sizes (
+
+$font-size--8: 6.75rem;
+$font-size--7: 2.75rem;
+$font-size--6: 2rem;
+$font-size--5: 1.75rem;
+$font-size--4: 1.5rem;
+$font-size--3: 1.125rem;
+$font-size--2: 1rem;
+$font-size--1: 0.75rem;
+
+// Button colors
+$button--primary-background-color: $color--dark;
+$button--primary-text-color: $color--white;
+$button--primary-border-color: $color--dark;
+
+$button--primary--hover-background-color: $color--white;
+$button--primary--hover-text-color: $color--dark;
+
+$button--secondary-text-color: $color--dark;
+$button--secondary-background-color: $color--white;
+$button--secondary-border-color: $color--white;
+
+$button--secondary--hover-background-color: $color--dark;
+$button--secondary--hover-text-color: $color--white;
+
+$button--tertiary-background-color: $color--light;
+$button--tertiary-text-color: $color--dark;
+$button--tertiary-border-color: $color--dark;
+
+$button--tertiary--hover-background-color: $color--white;
+$button--tertiary--hover-text-color: $color--dark;
