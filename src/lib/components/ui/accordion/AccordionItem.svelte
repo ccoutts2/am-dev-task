@@ -87,7 +87,7 @@
 
 			// Hide marker on Chrome & future proof
 			&::-webkit-details-marker,
-			&:marker {
+			&::marker {
 				display: none;
 			}
 
