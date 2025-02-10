@@ -1,11 +1,13 @@
 # Developer Task - Articulate Marketing
 
 ## Overview
+
 This project was developed as part of a task for Articulate Marketing. I chose SvelteKit as the framework because it offers a good balance between vanilla JavaScript and a full JavaScript framework. The web page is fully responsive across mobile, tablet, and desktop breakpoints.
 
-## Main Features
+## Main Comments
+
 - I implemented an **accordion** using the `<summary>` and `<details>` HTML elements to ensure the solution is both accessible and semantic.
-- Images were converted to JPEG format and compressed, utilizing the `<img>` `srcset` attribute for responsiveness.
+- Images were converted to JPEG format and compressed, utilising the `<img>` `srcset` attribute for responsiveness.
 - I've included **comments** throughout the codebase to explain important sections.
 
 ## Installation
